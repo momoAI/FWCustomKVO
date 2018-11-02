@@ -15,6 +15,8 @@
 		DFF55CCA218AFAEA00B24C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF55CC9218AFAEA00B24C83 /* main.m */; };
 		DFF55CD4218AFAEA00B24C83 /* FWCustomKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF55CD3218AFAEA00B24C83 /* FWCustomKVOTests.m */; };
 		DFF55CDF218AFAEA00B24C83 /* FWCustomKVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF55CDE218AFAEA00B24C83 /* FWCustomKVOUITests.m */; };
+		DFF55D6A218B04F200B24C83 /* FWObserverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF55D69218B04F200B24C83 /* FWObserverModel.m */; };
+		DFF55D6D218B068E00B24C83 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF55D6C218B068E00B24C83 /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DFF55CDA218AFAEA00B24C83 /* FWCustomKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWCustomKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF55CDE218AFAEA00B24C83 /* FWCustomKVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWCustomKVOUITests.m; sourceTree = "<group>"; };
 		DFF55CE0218AFAEA00B24C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF55D68218B04F200B24C83 /* FWObserverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWObserverModel.h; sourceTree = "<group>"; };
+		DFF55D69218B04F200B24C83 /* FWObserverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWObserverModel.m; sourceTree = "<group>"; };
+		DFF55D6B218B068E00B24C83 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		DFF55D6C218B068E00B24C83 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				DFF55CC5218AFAEA00B24C83 /* LaunchScreen.storyboard */,
 				DFF55CC8218AFAEA00B24C83 /* Info.plist */,
 				DFF55CC9218AFAEA00B24C83 /* main.m */,
+				DFF55D68218B04F200B24C83 /* FWObserverModel.h */,
+				DFF55D69218B04F200B24C83 /* FWObserverModel.m */,
+				DFF55D6B218B068E00B24C83 /* NSObject+KVO.h */,
+				DFF55D6C218B068E00B24C83 /* NSObject+KVO.m */,
 			);
 			path = FWCustomKVO;
 			sourceTree = "<group>";
@@ -264,6 +274,8 @@
 			files = (
 				DFF55CBF218AFADE00B24C83 /* ViewController.m in Sources */,
 				DFF55CCA218AFAEA00B24C83 /* main.m in Sources */,
+				DFF55D6D218B068E00B24C83 /* NSObject+KVO.m in Sources */,
+				DFF55D6A218B04F200B24C83 /* FWObserverModel.m in Sources */,
 				DFF55CBC218AFADE00B24C83 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
